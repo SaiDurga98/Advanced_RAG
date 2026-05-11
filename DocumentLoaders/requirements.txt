@@ -1,0 +1,19 @@
+langchain
+langchain-community
+pypdf
+rapidocr-onnxruntime
+pytesseract
+pdfplumber
+pdfminer.six
+jq
+beautifulsoup4
+lxml
+ipykernel
+
+# The requirements.txt file lists all the dependencies required to run the code in this directory. It is used to create a virtual environment and install all the necessary packages. To create a virtual environment and install the dependencies, you can run the following commands in your terminal:  uvicorn .venv
+# python -m venv .venv
+# source .venv/bin/activate  # On Windows, use `.venv\Scripts   
+# pip install -r requirements.txt
+# pypdf, rapidocr-onnxruntime, pytesseract, pdfplumber, and pdfminer.six are all libraries/parsers used for working with PDF files. They provide various functionalities such as extracting text, images, and metadata from PDF documents. 
+# jq is a command-line tool for processing JSON data. beautifulsoup4 and lxml are libraries used for parsing HTML and XML documents. ipykernel is a library that provides the IPython kernel for Jupyter notebooks.
+# These dependencies are required to run the code in the notebooks in this directory, which demonstrate how to use different document loaders to load and process various types of documents such as CSV and JSON files.
